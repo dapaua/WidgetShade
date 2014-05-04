@@ -1,0 +1,318 @@
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="out_of_space">"No queda lloc a la pantalla."</string>
+       <string name="all_apps_button_label">"Afegir widget"</string>
+    <string name="back_button_label">"enrere"</string>
+    <string name="settings_button_label">"Configuració"</string>
+   <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">"Eliminar"</string>
+    
+    
+      
+    <!-- Preferences -->
+    
+    <string name="pref_triggering_title">"Activar WidgetShade"</string>
+    <string name="pref_main_title">"Paràmetres generals"</string>
+    <string name="pref_pro_title">"Ajustaments versió PRO"</string>
+    <string name="pref_show_notif_title">"Mostra notificació."</string>
+    <string name="pref_show_notif_summary">"Mostrar una notificació per activar WidgetShade"</string>
+    
+    <string name="pref_show_trigger_title">"Mostra activador."</string>
+    <string name="pref_show_trigger_summary">"Mostrar una activador blanc i blau a la vora de la pantalla per activar WidgetShade."</string>
+    
+    <string name="pref_show_trigger_position_title">"Posició de l'activador"</string>
+    <string name="pref_show_trigger_position_summary">"On vols que aparegui l'activador"</string>
+    
+    <string name="pref_show_trigger_width_title">"Ample de l'activador"</string>
+    <string name="pref_show_trigger_width_summary">"Varia la mida de l'activador"</string>
+    
+    
+    <string name="pref_show_trigger_height_title">"Alt del activador"</string>
+    <string name="pref_show_trigger_height_summary">"Varia la mida de l'activador"</string>
+    
+    
+     <string name="pref_transparent_trigger_title">"Transparent trigger àrea"</string>
+    <string name="pref_transparent_trigger_summary">"Make the trigger àrea transparent."</string>
+    
+        <string name="pref_start_on_boot_title">"Carregar a l'inici"</string>
+    <string name="pref_start_on_boot_summary">"Càrrega WidgetShade en iniciar el dispositiu."</string>
+    
+    <string name="pref_transparent_buttons_title">"Barra de botons transparent"</string>
+    <string name="pref_transparent_buttons_summary">"Fa transparents els botons inferiors."</string>
+    
+    <string name="pref_small_buttons_title">"Barra de botons petita"</string>
+    <string name="pref_small_buttons_summary">"Encongeix els botons inferiors."</string>
+    
+    
+    <string name="pref_num_cells_title">"Nombre de cel · les"</string>
+    <string name="pref_num_cells_summary">"Quantes columnes i files vols a cada pantalla."</string>
+ 
+    
+    <string name="info">"If the trigger disappears, this means that Android has killed the app. To avoid it, you have two options. One is to enable the notification. This will lock the app in memory. The other is to go to settings-&gt; Accessibility and enable WidgetShade. Aquest programa does not collect any information. Enabling the Accessibility service locks the app in memory."</string>
+    
+    
+    
+    <string-array name="pref_num_cells_entries">
+        <item>"4 files i columnes (telèfon)"</item>
+        <item>"5 files i columnes (telèfon)"</item>
+        <item>"6 files i columnes (telèfon-tablet)"</item>
+        <item>"7 files i columnes (tablet)"</item>
+        
+    </string-array>
+    
+        <string-array name="pref_num_cells_values">
+            <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        
+    </string-array>
+    
+       <string name="pref_number_of_pages_title">"Nombre de pàgines"</string>
+    <string name="pref_number_of_pages_summary">"Nombre de pàgines de WidgetShade."</string>
+    
+    <string name="pref_trigger_offset_title">"Desplaçament de l'activador"</string>
+    <string name="pref_trigger_offset_summary">"Permet configurar amb precisió la posició de l'activador. "</string>
+    
+    <string name="pref_background_transparency_title">"Transparència del fons"</string>
+    <string name="pref_background_transparency_summary">"Gradua la transparència del fons de WidgetShade."</string>
+    <string name="refresh_screens_changed">"Canvi en el nombre de pàgines. Reiniciant."</string>
+    <string name="refresh_cells_changed">"Canvi en el nombre de cel · les. Reiniciant."</string>
+    <string name="refresh_bgtrans_changed">"Canvi en la transparència. Reiniciant."</string>
+    <string name="refresh_buttonstrans_changed">"Canvi en la transparència dels botons. Reiniciant."</string>
+    <string name="refresh_buttonssmall_changed">"Canvi en la mida dels botons. Reiniciant."</string>
+    
+    
+    <string name="pref_help">"Llegeix el manual"</string>
+    <string name="pref_help_title">"Ajuda"</string>
+    <string name="pref_market_pro_title">"Aconsegueix la versió PRO."</string>
+    
+    <string-array name="pref_trigger_offset_entries">
+        <item>"0%"</item>
+        <item>"5%"</item>
+        <item>"10%"</item>
+        <item>"15%"</item>
+        <item>"20%"</item>
+        <item>"25%"</item>
+        <item>"30%"</item>
+        <item>"35%"</item>
+        <item>"40%"</item>
+        <item>"45%"</item>
+    </string-array>
+    
+        <string-array name="pref_trigger_offset_values">
+        <item>"0"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15."</item>
+        <item>"20"</item>
+        <item>"25"</item>
+        <item>"30"</item>
+        <item>"35"</item>
+        <item>"40"</item>
+        <item>"45"</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_entries">
+        <item>"0%"</item>
+        <item>"10%"</item>
+        <item>"20%"</item>
+        <item>"30%"</item>
+        <item>"40%"</item>
+        <item>"50%"</item>
+        <item>"60%"</item>
+        <item>"70%"</item>
+        <item>"80%"</item>
+        <item>"90%"</item>
+        <item>"100%"</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_values">
+        <item>"0"</item>
+        <item>"10"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+        <item>"40"</item>
+        <item>"50"</item>
+        <item>"60"</item>
+        <item>"70"</item>
+        <item>"80"</item>
+        <item>"90"</item>
+        <item>"100"</item>
+    </string-array>
+    
+    <string-array name="pref_number_of_pages_entries">
+        <item>"1 pàgina"</item>
+        <item>"2 pàgines"</item>
+        <item>"3 pàgines"</item>
+         <item>"4 pàgines"</item>
+          <item>"5 pàgines"</item>
+    </string-array>
+    
+        <string-array name="pref_number_of_pages_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+         <item>"4"</item>
+         <item>"5"</item>
+    </string-array>
+    
+        
+         <string-array name="pref_show_trigger_width_entries">
+        <item>"Mini"</item>
+        <item>"Petit"</item>
+        <item>"Mitjà"</item>
+        <item>"Gran"</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_width_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    
+                   <string-array name="pref_show_trigger_height_entries">
+        <item>"Mini"</item>
+        <item>"Petit"</item>
+        <item>"Mitjà"</item>
+        <item>"Gran"</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_height_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    
+    <string name="by_dapaua">"Per dapaua © 2013"</string>
+    <string-array name="pref_show_trigger_position_entries">
+        <item>"A baix-Dreta"</item>
+        <item>"Centre-Dreta"</item>
+        <item>"Dalt-Dreta"</item>
+        <item>"A baix-Esquerra"</item>
+        <item>"Centre-Esquerra"</item>
+        <item>"A dalt-Esquerra"</item>
+    </string-array>
+    
+        <string-array name="pref_show_trigger_position_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+  
+    <string name="pref_use_root_title">"Utilitza permisos de root"</string>
+    <string name="pref_use_root_summary">"En alguns casos farà l'activació mes ràpida."</string>
+    
+        
+        <string name="choose_screen">"A que pantalla dirigirà aquest accés directe?:"</string>
+            <string name="screen1">"Pantalla 1"</string>
+        	<string name="screen2">"Pantalla 2"</string>
+        	<string name="screen3">"Pantalla 3"</string>
+        	<string name="screen4">"Pantalla 4"</string>
+        	<string name="screen5">"Pantalla 5"</string>
+        <string name="titlesc">"Nom:"</string>
+        <string name="titlesc2">"Escull un nom per a l'accés directe. Deixa-ho en blanc per utilitzar el nom per defecte."</string>
+        <string name="buttonpickimage">"Escull icona"</string>
+        	  <!-- Application name -->
+    <string name="application_name">"WidgetShade PRO"</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">"WidgetShade PRO"</string>
+    
+     <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_title">"WidgetShade PRO, per dapaua"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_move_item">"Afegeix aquí els teus widgets."</string>
+    <!-- The description of how to open all apps from the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_open_all_apps">"Per afegir un widget, prem el botó. \n Gràcies per comprar la versió PRO. Ara pots desinstal · lar la versió gratis."</string>
+    
+    <string name="pref_hide_buttons_title">"Desactiva la barra de botons"</string>
+     <string name="pref_hide_buttons_summary">"Atenció: Per accedir als paràmetres en aquest mode, obre l'aplicació 'Configuració de WidgetShade' o fes una pulsació llarga sobre l'activador."</string>
+     
+    <string name="pref_vibrate_on_sidebar_title">"Vibra en activar"</string>
+    <string name="pref_vibrate_on_sidebar_summary">"Vibra lleugerament a l'usar l'activador"</string>
+    
+    <string name="pref_respond_to_taps_title">"L'activador respon a tocs"</string>
+    <string name="pref_respond_to_taps_summary">"Per defecte, l'activador només respon al lliscar. Activa això si vols que respongui a pulsacions."</string>
+    
+    
+    <string name="pref_enable_vert_swipes_trigger_title">"L'activador respon a lliscament vertical"</string>
+    <string name="pref_enable_vert_swipes_trigger_summary">"El lliscament vertical mou l'activador"</string>
+    
+    <string name="pref_enable_longpress_trigger_title">"L'activador respon a tocs llargs"</string>
+    <string name="pref_enable_longpress_trigger_summary">"Un toc llarg en l'activador mostra la configuració de WidgetShade"</string>
+    
+    <string name="pref_trigger_numerical_transparency_title">"Transparència de l'activador"</string>
+    <string name="pref_trigger_numerical_transparency_summary">"Transparència: "</string>
+    
+        <string name="pref_trigger_numerical_offset_title">"Desplaçament de l'activador"</string>
+    <string name="pref_trigger_numerical_offset_summary">"Permet configurar amb precisió la posició de l'activador. Desplaçament: "</string>
+    
+    <string name="pref_bg_numerical_transparency_title">"Transparència del fons"</string>
+    <string name="pref_bg_numerical_transparency_summary">"Transparència: "</string>
+  
+    <string name="widget_shade_settings">"Configuració de WidgetShade"</string>
+    
+     <string name="pref_action_tap_title">Acció en premer l\'activador</string>
+    <string name="pref_action_longpress_title">Acció en premer llarg</string>
+    <string name="pref_action_vertical_title">Acció en lliscar vertical</string>
+    <string name="pref_action_horizontal_title">Acció en lliscar horizontal</string>
+    
+            <string-array name="pref_actions_entries">
+        <item>No facis res</item>
+        <item>Mostrar WidgetShade</item>
+        <item>Mostrar configuració de WidgetShade</item>
+        <item>Moure activador</item>
+      
+    </string-array>
+    
+                    <string-array name="pref_actions_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        
+    </string-array>
+     <string name="action">Acció : </string>
+         <string name="pref_contact">Contacta\'m</string>
+         
+                    <string name="pref_behaviour">Comportament de WidgetShade</string>
+        <string name="pref_exit_on_tap_title">Prem per sortir</string>
+        <string name="pref_exit_on_tap_summary">Prem qualsevol espai buit per sortir de WidgetShade</string>
+        
+        <string name="pref_transition_title">Escull animació incial</string>
+        <string name="pref_transition_summary">Escull l\'animació que es mostra en obrir WidgetShade. Animació: </string>
+        
+        
+        
+        <string name="pref_swap_back_settings_title">Intercanvia els botons \'Enrere\' i \'Ajustos\'</string>
+        <string name="pref_swap_back_settings_summary">Per defecte, el botó enrere és a l\'esquerra. Activa això per mostrar-lo a la dreta.</string>
+        
+              <string-array name="pref_transition_entries">
+        <item>Apareix</item>
+        <item>Gira</item>
+        <item>Llisca</item>
+        
+      
+    </string-array>
+</resources>

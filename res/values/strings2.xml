@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="out_of_space">No more room on this Home screen.</string>
+       <string name="all_apps_button_label">Add Widget</string>
+    <string name="back_button_label">Back</string>
+    <string name="settings_button_label">Settings</string>
+   <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">Remove</string>
+    
+    
+      
+    <!-- Preferences -->
+    
+    <string name="pref_triggering_title">Triggering WidgetShade</string>
+    <string name="pref_main_title">General Settings</string>
+    <string name="pref_pro_title">PRO Version Settings</string>
+    <string name="pref_show_notif_title">Show notification.</string>
+    <string name="pref_show_notif_summary">Show notification to trigger WidgetShade</string>
+    
+    <string name="pref_show_trigger_title">Show trigger area.</string>
+    <string name="pref_show_trigger_summary">Show a trigger area at the border of the screen to trigger WidgetShade</string>
+    
+    <string name="pref_show_trigger_position_title">Position for the trigger area</string>
+    <string name="pref_show_trigger_position_summary">Where you want the trigger area to appear</string>
+    
+    <string name="pref_show_trigger_width_title">Width for the trigger area</string>
+    <string name="pref_show_trigger_width_summary">How wide you want the trigger area to appear</string>
+    
+    
+    <string name="pref_show_trigger_height_title">Height for the trigger area</string>
+    <string name="pref_show_trigger_height_summary">How tall you want the trigger area to appear</string>
+    
+    
+     <string name="pref_transparent_trigger_title">Transparent trigger area</string>
+    <string name="pref_transparent_trigger_summary">Make the trigger area transparent.</string>
+    
+        <string name="pref_start_on_boot_title">Start on boot</string>
+    <string name="pref_start_on_boot_summary">Show notification/trigger on boot.</string>
+    
+    <string name="pref_transparent_buttons_title">Transparent button bar</string>
+    <string name="pref_transparent_buttons_summary">Make the \'New widget\',\'Settings\' and \'Back\' buttons transparent.</string>
+    
+    <string name="pref_small_buttons_title">Small button bar</string>
+    <string name="pref_small_buttons_summary">Make the \'New widget\',\'Settings\' and \'Back\' buttons smaller.</string>
+    
+    
+    <string name="pref_num_cells_title">Number of cells</string>
+    <string name="pref_num_cells_summary">How many columns and rows you want in each screen.</string>
+ 
+    
+    <string name="info">If the trigger disappears, this means that android has killed the app. To avoid it, you have two options. One is to enable the notification. This will lock the app in memory. The other is to go to settings->accesibility and enable WidgetShade. This program does not collect any information. Enabling the accesibility service locks the app in memory.</string>
+    
+    
+    
+    <string-array name="pref_num_cells_entries">
+        <item>4 rows and columns (phone)</item>
+        <item>5 rows and columns (phone)</item>
+        <item>6 rows and columns (phone-tablet)</item>
+        <item>7 rows and columns (tablet)</item>
+        
+    </string-array>
+    
+        <string-array name="pref_num_cells_values">
+            <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        
+    </string-array>
+    
+       <string name="pref_number_of_pages_title">Number of pages</string>
+    <string name="pref_number_of_pages_summary">Number of pages for WidgetShade.</string>
+    
+    <string name="pref_trigger_offset_title">Trigger offset</string>
+    <string name="pref_trigger_offset_summary">Allows you to fine tune the trigger area vertical position (Only when set to top or bottom). </string>
+    
+    <string name="pref_background_transparency_title">Background transparency</string>
+    <string name="pref_background_transparency_summary">How transparent you want WidgetShade to be.</string>
+    <string name="refresh_screens_changed">Number of pages changed. Restarting.</string>
+    <string name="refresh_cells_changed">Number of cells changed. Restarting.</string>
+    <string name="refresh_bgtrans_changed">Background transparency changed. Restarting.</string>
+    <string name="refresh_buttonstrans_changed">Button bar transparency changed. Restarting.</string>
+    <string name="refresh_buttonssmall_changed">Button bar size changed. Restarting.</string>
+    
+    
+    <string name="pref_help">Read the manual</string>
+    <string name="pref_help_title">Help</string>
+    <string name="pref_market_pro_title">Get PRO version.</string>
+    
+    <string-array name="pref_trigger_offset_entries">
+        <item>0%</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+        <item>45%</item>
+    </string-array>
+    
+        <string-array name="pref_trigger_offset_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_entries">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    
+    <string-array name="pref_number_of_pages_entries">
+        <item>1 page</item>
+        <item>2 pages</item>
+        <item>3 pages</item>
+         <item>4 pages</item>
+          <item>5 pages</item>
+    </string-array>
+    
+        <string-array name="pref_number_of_pages_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+    
+        
+         <string-array name="pref_show_trigger_width_entries">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_width_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+                   <string-array name="pref_show_trigger_height_entries">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_height_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="by_dapaua">By dapaua &#169;2013</string>
+    <string-array name="pref_show_trigger_position_entries">
+        <item>Bottom-Right</item>
+        <item>Center-Right</item>
+        <item>Top-Right</item>
+        <item>Bottom-Left</item>
+        <item>Center-Left</item>
+        <item>Top-Left</item>
+    </string-array>
+    
+        <string-array name="pref_show_trigger_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+  
+    <string name="pref_use_root_title">Use root permissions</string>
+    <string name="pref_use_root_summary">Use root permissions for better response when using the trigger area</string>
+    
+        
+        <string name="choose_screen">Choose to which screen will this shortcut lead to:</string>
+            <string name="screen1">Screen 1</string>
+        	<string name="screen2">Screen 2</string>
+        	<string name="screen3">Screen 3</string>
+        	<string name="screen4">Screen 4</string>
+        	<string name="screen5">Screen 5</string>
+        <string name="titlesc">Shortcut Name:</string>
+        <string name="titlesc2">You can set the shortcut name. Leave it empty for default name.</string>
+        <string name="buttonpickimage">Select icon</string>
+        	  <!-- Application name -->
+    <string name="application_name">WidgetShade PRO</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">WidgetShade PRO</string>
+    
+     <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_title">WidgetShade PRO, by dapaua</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_move_item">You can add your widgets here.</string>
+    <!-- The description of how to open all apps from the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_open_all_apps">To add a widget, press the button.\n Thanks for purchasing the PRO version. You can now uninstall the FREE version.</string>
+    
+    <string name="pref_hide_buttons_title">Completely hide the button bar</string>
+     <string name="pref_hide_buttons_summary">To access the settings in this mode, use the WidgetShade Settings app that appears in your app list or long press the trigger area</string>
+     
+    <string name="pref_vibrate_on_sidebar_title">Vibrate when triggered</string>
+    <string name="pref_vibrate_on_sidebar_summary">Perform a small vibration when successfully triggered</string>
+    
+    <string name="pref_respond_to_taps_title">Trigger area responds to taps</string>
+    <string name="pref_respond_to_taps_summary">By default, the trigger area only respond to swipes. If you want it to respond also to taps, enable this</string>
+    
+    
+    <string name="pref_enable_vert_swipes_trigger_title">Trigger area responds to vertical swipes</string>
+    <string name="pref_enable_vert_swipes_trigger_summary">Vertical swipes move the trigger area</string>
+    
+    <string name="pref_enable_longpress_trigger_title">Trigger area responds to longpress</string>
+    <string name="pref_enable_longpress_trigger_summary">Longpress shows settings</string>
+    
+    <string name="pref_trigger_numerical_transparency_title">Trigger transparency</string>
+    <string name="pref_trigger_numerical_transparency_summary">Transparency:</string>
+    
+        <string name="pref_trigger_numerical_offset_title">Trigger offset</string>
+    <string name="pref_trigger_numerical_offset_summary">Fine-tune trigger vertical position. Offset:</string>
+    
+    <string name="pref_bg_numerical_transparency_title">Background transparency</string>
+    <string name="pref_bg_numerical_transparency_summary">Transparency:</string>
+
+    <string name="widget_shade_settings">WidgetShade Settings</string>
+    
+    
+    <string name="pref_action_tap_title">Action on trigger tap</string>
+    <string name="pref_action_longpress_title">Action on trigger longpress</string>
+    <string name="pref_action_vertical_title">Action on trigger vertical swipe</string>
+    <string name="pref_action_horizontal_title">Action on trigger horizontal swipe</string>
+    
+            <string-array name="pref_actions_entries">
+        <item>Do nothing</item>
+        <item>Show WidgetShade</item>
+        <item>Show WidgetShade Settings</item>
+        <item>Move trigger</item>
+      
+    </string-array>
+    
+                    <string-array name="pref_actions_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        
+    </string-array>
+    <string name="action">Action : </string>
+        <string name="pref_contact">Contact the developer</string>
+        
+        
+        
+        <!-- NEW -->
+      <string name="pref_behaviour">WidgetShade Behavior</string>
+        <string name="pref_exit_on_tap_title">Tap to exit</string>
+        <string name="pref_exit_on_tap_summary">Tap any empty space to exit WidgetShade</string>
+        
+        <string name="pref_transition_title">Choose start animation</string>
+        <string name="pref_transition_summary">Choose the animation that shows when WidgetShade starts. Animation: </string>
+        
+        
+        
+        <string name="pref_swap_back_settings_title">Swap back and settings button</string>
+        <string name="pref_swap_back_settings_summary">By default, the back button is on the left. Enable this to show it on the right.</string>
+        
+              <string-array name="pref_transition_entries">
+        <item>Fade</item>
+        <item>Flip</item>
+        <item>Slide</item>
+        
+      
+    </string-array>
+    
+                    <string-array name="pref_transition_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        
+        
+    </string-array>
+        
+</resources>

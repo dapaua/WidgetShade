@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="out_of_space">No queda sitio en la pantalla.</string>
+       <string name="all_apps_button_label">Añadir widget</string>
+    <string name="back_button_label">Atras</string>
+    <string name="settings_button_label">Ajustes</string>
+   <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">Eliminar</string>
+    
+    
+      
+    <!-- Preferences -->
+    
+    <string name="pref_triggering_title">Activar WidgetShade</string>
+    <string name="pref_main_title">Ajustes generales</string>
+    <string name="pref_pro_title">Ajustes version PRO</string>
+    <string name="pref_show_notif_title">Mostrar notificación.</string>
+    <string name="pref_show_notif_summary">Mostrar una notificación para activar WidgetShade</string>
+    
+    <string name="pref_show_trigger_title">Mostrar activador.</string>
+    <string name="pref_show_trigger_summary">Mostrar una activador blanco y azul en el borde de la pantalla para activar WidgetShade.</string>
+    
+    <string name="pref_show_trigger_position_title">Posición del activador</string>
+    <string name="pref_show_trigger_position_summary">Donde quieres que aparezca el activador</string>
+    
+    <string name="pref_show_trigger_width_title">Ancho del activador</string>
+    <string name="pref_show_trigger_width_summary">Varía el tamaño del activador</string>
+    
+    
+    <string name="pref_show_trigger_height_title">Alto del activador</string>
+    <string name="pref_show_trigger_height_summary">Varía el tamaño del activador</string>
+    
+    
+
+    
+        <string name="pref_start_on_boot_title">Cargar al inicio</string>
+    <string name="pref_start_on_boot_summary">Carga WidgetShade al iniciarse el dispositivo.</string>
+    
+    <string name="pref_transparent_buttons_title">Barra de botones transparente</string>
+    <string name="pref_transparent_buttons_summary">Hace transparentes los botones inferiores.</string>
+    
+    <string name="pref_small_buttons_title">Barra de botones pequeña</string>
+    <string name="pref_small_buttons_summary">Encoge los botones inferiores.</string>
+    
+    
+    <string name="pref_num_cells_title">Número de celdas</string>
+    <string name="pref_num_cells_summary">Cuantas columnas y filas quieres en cada pantalla.</string>
+ 
+    
+    <string name="info">If the trigger disappears, this means that android has killed the app. To avoid it, you have two options. One is to enable the notification. This will lock the app in memory. The other is to go to settings->accesibility and enable WidgetShade. This program does not collect any information. Enabling the accesibility service locks the app in memory.</string>
+    
+    
+    
+    <string-array name="pref_num_cells_entries">
+        <item>4 filas y columnas (teléfono)</item>
+        <item>5 filas y columnas (teléfono)</item>
+        <item>6 filas y columnas (teléfono-tablet)</item>
+        <item>7 filas y columnas (tablet)</item>
+        
+    </string-array>
+    
+        <string-array name="pref_num_cells_values">
+            <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        
+    </string-array>
+    
+       <string name="pref_number_of_pages_title">Número de páginas</string>
+    <string name="pref_number_of_pages_summary">Número de páginas de WidgetShade.</string>
+    
+    <string name="pref_trigger_offset_title">Desplazamiento del activador</string>
+    <string name="pref_trigger_offset_summary">Permite configurar con precisión la posición del activador. </string>
+    
+    <string name="pref_background_transparency_title">Transparencia del fondo</string>
+    <string name="pref_background_transparency_summary">Gradua la transparencia del fondo de WidgetShade.</string>
+    <string name="refresh_screens_changed">Cambio en el número de páginas. Reiniciando.</string>
+    <string name="refresh_cells_changed">Cambio en el número de celdas. Reiniciando.</string>
+    <string name="refresh_bgtrans_changed">Cambio en la transparencia. Reiniciando.</string>
+    <string name="refresh_buttonstrans_changed">Cambio en la transparencia de los botones. Reiniciando.</string>
+    <string name="refresh_buttonssmall_changed">Cambio en el tamaño de los botones. Reiniciando.</string>
+    
+    
+    <string name="pref_help">Lee el manual</string>
+    <string name="pref_help_title">Ayuda</string>
+    <string name="pref_market_pro_title">Consigue la versión PRO.</string>
+    
+    <string-array name="pref_trigger_offset_entries">
+        <item>0%</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+        <item>45%</item>
+    </string-array>
+    
+        <string-array name="pref_trigger_offset_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_entries">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    
+    <string-array name="pref_number_of_pages_entries">
+        <item>1 página</item>
+        <item>2 páginas</item>
+        <item>3 páginas</item>
+         <item>4 páginas</item>
+          <item>5 páginas</item>
+    </string-array>
+    
+        <string-array name="pref_number_of_pages_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+    
+        
+         <string-array name="pref_show_trigger_width_entries">
+        <item>Mini</item>
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_width_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+                   <string-array name="pref_show_trigger_height_entries">
+        <item>Mini</item>
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_height_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="by_dapaua">Por dapaua &#169;2013</string>
+    <string-array name="pref_show_trigger_position_entries">
+        <item>Abajo-Derecha</item>
+        <item>Centro-Derecha</item>
+        <item>Arriba-Derecha</item>
+        <item>Abajo-Izquierda</item>
+        <item>Centro-Izquierda</item>
+        <item>Arriba-Izquierda</item>
+    </string-array>
+    
+        <string-array name="pref_show_trigger_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+  
+    <string name="pref_use_root_title">Usar permisos de root</string>
+    <string name="pref_use_root_summary">En algunos casos hará la activación mas rápida.</string>
+    
+        
+        <string name="choose_screen">A que pantalla dirigirá este acceso directo?:</string>
+            <string name="screen1">Pantalla 1</string>
+        	<string name="screen2">Pantalla 2</string>
+        	<string name="screen3">Pantalla 3</string>
+        	<string name="screen4">Pantalla 4</string>
+        	<string name="screen5">Pantalla 5</string>
+        <string name="titlesc">Nombre:</string>
+        <string name="titlesc2">Escoje un nombre para el acceso directo. Dejalo en blanco para usar el nombre por defecto.</string>
+        <string name="buttonpickimage">Escoge icono</string>
+        	  <!-- Application name -->
+    <string name="application_name">WidgetShade PRO</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">WidgetShade PRO</string>
+    
+     <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_title">WidgetShade PRO, por dapaua</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_move_item">Añade aquí tus widgets.</string>
+    <!-- The description of how to open all apps from the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_open_all_apps">Para añadir un widget, pulsa el botón.\n Gracias por comprar la versión PRO. Ahora puedes desinstalar la versión gratis.</string>
+    
+    <string name="pref_hide_buttons_title">Desactiva la barra de botones</string>
+     <string name="pref_hide_buttons_summary">Atención: Para acceder a los ajustes en este mode, abre la aplicación \'Ajustes de WidgetShade\' o haz una pulsación larga sobre el activador.</string>
+     
+    <string name="pref_vibrate_on_sidebar_title">Vibra al activar</string>
+    <string name="pref_vibrate_on_sidebar_summary">Vibra ligeramente al usar el activador</string>
+    
+    <string name="pref_respond_to_taps_title">El activador responde a toques</string>
+    <string name="pref_respond_to_taps_summary">Por defecto, el activador solo responde al deslizarlo. Activa esto si quieres que responda a pulsaciones.</string>
+    
+    
+    <string name="pref_enable_vert_swipes_trigger_title">El activador responde a deslizamiento vertical</string>
+    <string name="pref_enable_vert_swipes_trigger_summary">El deslizamiento vertical mueve el activador</string>
+    
+    <string name="pref_enable_longpress_trigger_title">El activador responde a toques largos</string>
+    <string name="pref_enable_longpress_trigger_summary">Un toque largo en el activador muestra los ajustes de WidgetShade</string>
+    
+    <string name="pref_trigger_numerical_transparency_title">Transparencia del activador</string>
+    <string name="pref_trigger_numerical_transparency_summary">Transparencia: </string>
+    
+        <string name="pref_trigger_numerical_offset_title">Desplazamiento del activador</string>
+    <string name="pref_trigger_numerical_offset_summary">Permite configurar con precisión la posición del activador. Desplazamiento: </string>
+    
+    <string name="pref_bg_numerical_transparency_title">Transparencia del fondo</string>
+    <string name="pref_bg_numerical_transparency_summary">Transparencia: </string>
+  
+    <string name="widget_shade_settings">Ajustes de WidgetShade</string>
+    
+    
+    <string name="pref_action_tap_title">Acción al pulsar activador</string>
+    <string name="pref_action_longpress_title">Acción al pulsar largo</string>
+    <string name="pref_action_vertical_title">Acción al deslizamiento vertical</string>
+    <string name="pref_action_horizontal_title">Acción al deslizamiento horizontal</string>
+    
+            <string-array name="pref_actions_entries">
+        <item>No hagas nada</item>
+        <item>Mostrar WidgetShade</item>
+        <item>Mostrar Ajustes de WidgetShade</item>
+        <item>Mover activador</item>
+      
+    </string-array>
+    
+                    <string-array name="pref_actions_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        
+    </string-array>
+    
+     <string name="action">Acción : </string>   
+         <string name="pref_contact">Contáctame</string>          
+         
+              
+           <string name="pref_behaviour">Comportamiento de WidgetShade</string>
+        <string name="pref_exit_on_tap_title">Pulsa para salir</string>
+        <string name="pref_exit_on_tap_summary">Pulsa cualquier espacio vacio para salir de WidgetShade</string>
+        
+        <string name="pref_transition_title">Escoge la animación inicial</string>
+        <string name="pref_transition_summary">Escoge la animación que se muestra al abrir WidgetShade. Animación: </string>
+        
+        
+        
+        <string name="pref_swap_back_settings_title">Intercambia los botones \'Atras\' y \'Ajustes\'</string>
+        <string name="pref_swap_back_settings_summary">Por defecto, el botón atrás está a la izquierda. Activa esto para mostrarlo a la derecha.</string>
+        
+              <string-array name="pref_transition_entries">
+        <item>Aparece</item>
+        <item>Gira</item>
+        <item>Desliza</item>
+        
+      
+    </string-array>
+     
+</resources>

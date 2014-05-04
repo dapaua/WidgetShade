@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory 
+        android:title="@string/by_dapaua"
+        android:key="pref_triggering_settings">
+</PreferenceCategory>
+	<PreferenceCategory 
+        android:title="@string/pref_main_title"
+        android:key="pref_main_settings">
+    
+    	    
+    	    
+    <CheckBoxPreference
+        android:key="pref_start_on_boot"
+        android:title="@string/pref_start_on_boot_title"
+        android:summary="@string/pref_start_on_boot_summary"
+        android:defaultValue="true" />
+    
+       <CheckBoxPreference
+        android:key="pref_use_root"
+        android:title="@string/pref_use_root_title"
+        android:summary="@string/pref_use_root_summary"
+        android:defaultValue="false" />
+    
+</PreferenceCategory>
+
+
+	<PreferenceCategory 
+        android:title="@string/pref_triggering_title"
+        android:key="pref_triggering_settings">
+    
+    	    
+    	    
+    <CheckBoxPreference
+        android:key="pref_show_notif"
+        android:title="@string/pref_show_notif_title"
+        android:summary="@string/pref_show_notif_summary"
+        android:defaultValue="true" />
+     <CheckBoxPreference
+        android:key="pref_show_trigger"
+        android:title="@string/pref_show_trigger_title"
+        android:summary="@string/pref_show_trigger_summary"
+        android:defaultValue="true" />   
+    
+    <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_show_trigger_position"
+        android:title="@string/pref_show_trigger_position_title"
+        android:dialogTitle="@string/pref_show_trigger_position_title"
+        android:entries="@array/pref_show_trigger_position_entries"
+        android:entryValues="@array/pref_show_trigger_position_values"
+        android:defaultValue="0" />
+    
+    
+     <com.dapaua.widgetsoverlay.SeekBarPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_trigger_numerical_offset"
+        android:title="@string/pref_trigger_numerical_offset_title"
+        android:dialogTitle="@string/pref_trigger_numerical_offset_summary"   
+        android:defaultValue="0"        />
+    
+     
+    
+        <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_show_trigger_width"
+        android:title="@string/pref_show_trigger_width_title"
+        android:dialogTitle="@string/pref_show_trigger_width_title"
+        android:entries="@array/pref_show_trigger_width_entries"
+        android:entryValues="@array/pref_show_trigger_width_values"
+        android:defaultValue="2" />
+        
+            <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_show_trigger_height"
+        android:title="@string/pref_show_trigger_height_title"
+        android:dialogTitle="@string/pref_show_trigger_height_title"
+        android:entries="@array/pref_show_trigger_height_entries"
+        android:entryValues="@array/pref_show_trigger_height_values"
+        android:defaultValue="1" />
+            
+            <com.dapaua.widgetsoverlay.SeekBarPreference
+                android:dependency="pref_show_trigger"
+              android:key="pref_trigger_numerical_transparency"
+        android:title="@string/pref_trigger_numerical_transparency_title"
+        android:dialogTitle="@string/pref_trigger_numerical_transparency_summary"   
+        android:defaultValue="0"        >
+                
+            </com.dapaua.widgetsoverlay.SeekBarPreference>
+    
+	
+            <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_action_tap"
+        android:title="@string/pref_action_tap_title"
+        android:dialogTitle="@string/pref_action_tap_title"
+        android:entries="@array/pref_actions_entries"
+        android:entryValues="@array/pref_actions_values"
+        android:defaultValue="0" />
+            
+                        <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_action_longpress"
+        android:title="@string/pref_action_longpress_title"
+        android:dialogTitle="@string/pref_action_longpress_title"
+        android:entries="@array/pref_actions_entries"
+        android:entryValues="@array/pref_actions_values"
+        android:defaultValue="2" />
+                        
+                                    <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_action_horizontal"
+        android:title="@string/pref_action_horizontal_title"
+        android:dialogTitle="@string/pref_action_horizontal_title"
+        android:entries="@array/pref_actions_entries"
+        android:entryValues="@array/pref_actions_values"
+        android:defaultValue="1" />
+                                    
+                                                <ListPreference
+        android:dependency="pref_show_trigger"
+        android:key="pref_action_vertical"
+        android:title="@string/pref_action_vertical_title"
+        android:dialogTitle="@string/pref_action_vertical_title"
+        android:entries="@array/pref_actions_entries"
+        android:entryValues="@array/pref_actions_values"
+        android:defaultValue="3" />
+        
+     
+   
+        
+     <CheckBoxPreference
+          android:dependency="pref_show_trigger"
+        android:key="pref_vibrate_on_sidebar"
+        android:title="@string/pref_vibrate_on_sidebar_title"
+        android:summary="@string/pref_vibrate_on_sidebar_summary"
+        android:defaultValue="true" /> 
+        
+</PreferenceCategory>     
+<PreferenceCategory
+    android:title="@string/pref_behaviour"
+    android:key="pref_behaviour"
+    >
+        
+     <CheckBoxPreference
+         
+        android:key="pref_exit_on_tap"
+        android:title="@string/pref_exit_on_tap_title"
+        android:summary="@string/pref_exit_on_tap_summary"
+        android:defaultValue="false" /> 
+        
+       <ListPreference
+        
+        android:key="pref_transition"
+        android:title="@string/pref_transition_title"
+        android:summary="@string/pref_transition_summary"
+        android:dialogTitle="@string/pref_transition_title"
+        android:entries="@array/pref_transition_entries"
+        android:entryValues="@array/pref_transition_values"
+        android:defaultValue="0" />
+       
+       <CheckBoxPreference
+         
+        android:key="pref_swap_back_settings"
+        android:title="@string/pref_swap_back_settings_title"
+        android:summary="@string/pref_swap_back_settings_summary"
+        android:defaultValue="false" /> 
+       
+       
+</PreferenceCategory>     
+
+        
+     
+
+	<PreferenceCategory 
+        android:title="@string/pref_pro_title"
+        android:key="pref_pro_settings">
+     
+	     <!--  PRO ONLY -->
+    <ListPreference
+        
+        android:key="pref_number_of_pages"
+        android:title="@string/pref_number_of_pages_title"
+        android:summary="@string/pref_number_of_pages_summary"
+        android:dialogTitle="@string/pref_number_of_pages_title"
+        android:entries="@array/pref_number_of_pages_entries"
+        android:entryValues="@array/pref_number_of_pages_values"
+        android:defaultValue="1" />
+    
+     <CheckBoxPreference
+        
+        android:key="pref_transparent_buttons"
+        android:title="@string/pref_transparent_buttons_title"
+        android:summary="@string/pref_transparent_buttons_summary"
+        android:defaultValue="false" /> 
+    
+          <CheckBoxPreference
+        
+        android:key="pref_small_buttons"
+        android:title="@string/pref_small_buttons_title"
+        android:summary="@string/pref_small_buttons_summary"
+        android:defaultValue="false" /> 
+        
+          
+          <CheckBoxPreference
+        
+        android:key="pref_hide_buttons"
+        android:title="@string/pref_hide_buttons_title"
+        android:summary="@string/pref_hide_buttons_summary"
+        android:defaultValue="false" /> 
+     
+          
+                      <com.dapaua.widgetsoverlay.SeekBarPreference
+              android:key="pref_bg_numerical_transparency"
+        android:title="@string/pref_bg_numerical_transparency_title"
+        android:dialogTitle="@string/pref_bg_numerical_transparency_title"   
+        android:defaultValue="50"        >
+                
+            </com.dapaua.widgetsoverlay.SeekBarPreference>
+    
+
+     
+     <ListPreference
+        
+        android:key="pref_num_cells"
+        android:title="@string/pref_num_cells_title"
+        android:summary="@string/pref_num_cells_summary"
+        android:dialogTitle="@string/pref_num_cells_title"
+        android:entries="@array/pref_num_cells_entries"
+        android:entryValues="@array/pref_num_cells_values"
+        android:defaultValue="5" />
+     
+     </PreferenceCategory>
+<PreferenceCategory 
+        android:title="@string/pref_help_title"
+        android:key="pref_help_settings">	    
+	
+	<com.dapaua.widgetsoverlay.IconPreferenceScreenHelpDialog android:key="pref_help" android:title="@string/pref_help" >
+    <!-- This will show a help dialog when tapped. -->
+</com.dapaua.widgetsoverlay.IconPreferenceScreenHelpDialog>
+
+	
+			<com.dapaua.widgetsoverlay.IconPreferenceScreen android:title="@string/pref_contact" android:key="pref_contact">
+    <intent android:action="android.intent.action.VIEW"
+            android:data="mailto:dapaua.dapaua@gmail.com?subject=WidgetShade" />
+	</com.dapaua.widgetsoverlay.IconPreferenceScreen>
+	
+<!-- 
+		<com.dapaua.widgetsoverlay.IconPreferenceScreen android:title="@string/pref_market_pro_title" android:key="pref_market_pro">
+    <intent android:action="android.intent.action.VIEW"
+            android:data="market://details?id=com.dapaua.widgetsoverlaypro" />
+  
+</com.dapaua.widgetsoverlay.IconPreferenceScreen>
+ --> 
+
+</PreferenceCategory>
+</PreferenceScreen>

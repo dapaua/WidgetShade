@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="out_of_space">Nessuno spazio residuo su questa schermata Home</string>
+       <string name="all_apps_button_label">Aggiungi Widget</string>
+    <string name="back_button_label">Indietro</string>
+    <string name="settings_button_label">Impostazioni</string>
+   <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">Rimuovi</string>
+    
+    
+      
+    <!-- Preferences -->
+    
+    <string name="pref_triggering_title">Attivazione di WidgetShade</string>
+    <string name="pref_main_title">Impostazioni Generali</string>
+    <string name="pref_pro_title">Impostazioni Versione PRO</string>
+    <string name="pref_show_notif_title">Mostra notifica</string>
+    <string name="pref_show_notif_summary">Mostra notifica per attivare WidgetShade</string>
+    
+    <string name="pref_show_trigger_title">Mostra area di attivazione.</string>
+    <string name="pref_show_trigger_summary">Mostra un\'area di attivazione sul margine dello schermo per attivare WidgetShade</string>
+    
+    <string name="pref_show_trigger_position_title">Posizione dell\'area di attivazione</string>
+    <string name="pref_show_trigger_position_summary">Dove si vuol far apparire l\'area di attivazione</string>
+    
+    <string name="pref_show_trigger_width_title">Larghezza dell\'area di attivazione</string>
+    <string name="pref_show_trigger_width_summary">Quanto larga deve essere l\'area di attivazione</string>
+    
+    
+    <string name="pref_show_trigger_height_title">Altezza dell\'area di attivazione</string>
+    <string name="pref_show_trigger_height_summary">Quanto alta deve essere l\'area di attivazione</string>
+    
+    
+     <string name="pref_transparent_trigger_title">Area di attivazione trasparente</string>
+    <string name="pref_transparent_trigger_summary">Rende l\'area di attivazione trasparente.</string>
+    
+        <string name="pref_start_on_boot_title">Avvia Widgetshade all\'avvio del dispositivo</string>
+    <string name="pref_start_on_boot_summary">Mostra la notifica/area di attivazione all\'avvio del dispositivo.</string>
+    
+    <string name="pref_transparent_buttons_title">Barra dei comandi trasparente</string>
+    <string name="pref_transparent_buttons_summary">Rendi trasparenti i tasti \'Nuovo widget\',\'Impostazioni\' e \'Indietro\'.</string>
+    
+    <string name="pref_small_buttons_title">Barra dei comandi ridotta</string>
+    <string name="pref_small_buttons_summary">Rendi più piccoli i tasti \'Nuovo widget\',\'Impostazioni\' e \'Indietro\'.</string>
+    
+    
+    <string name="pref_num_cells_title">Numero di celle</string>
+    <string name="pref_num_cells_summary">Quante colonne e righe si desiderano in ciascuna schermata.</string>
+ 
+    
+    <string name="info">Se l\'area di attivazione scompare, significa che Android ha terminato l\'applicazione. Per evitare che accada, ci sono due opzioni. La prima è abilitare la notifica permanente. Ciò bloccherà l\'applicazione in memoria. L\'altra è andare nel menu impostazioni->accesibilità e lì abilitare WidgetShade. Questo programma non raccoglierà alcuna informazione personale. Abilitare il servizio di accessibilità blocca l\'applicazione in memoria.</string>
+    
+    
+    
+    <string-array name="pref_num_cells_entries">
+        <item>4 righe e colonne (telefono)</item>
+        <item>5 righe e colonne (telefono)</item>
+        <item>6 righe e colonne (telefono-tablet)</item>
+        <item>7 righe e colonne (tablet)</item>
+        
+    </string-array>
+    
+        <string-array name="pref_num_cells_values">
+            <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        
+    </string-array>
+    
+       <string name="pref_number_of_pages_title">Numero di pagine</string>
+    <string name="pref_number_of_pages_summary">Numero di pagine per WidgetShade.</string>
+    
+    <string name="pref_trigger_offset_title">Offset dell\'area di attivazione</string>
+    <string name="pref_trigger_offset_summary">Consente di regolare di fino la posizione verticale dell\'area di attivazione (Solo quando impostata in alto o in basso). </string>
+    
+    <string name="pref_background_transparency_title">Trasparenza dello sfondo</string>
+    <string name="pref_background_transparency_summary">Quanto si vuole che Widgetshade sia trasparente</string>
+    <string name="refresh_screens_changed">Il numero di pagine è cambiato. Riavvio in corso.</string>
+    <string name="refresh_cells_changed">Il numero di celle è cambiato. Riavvio in corso.</string>
+    <string name="refresh_bgtrans_changed">La trasparenza dello sfondo è cambiata. Riavvio in corso.</string>
+    <string name="refresh_buttonstrans_changed">La trasparenza della barra dei comandi è cambiata. Riavvio in corso.</string>
+    <string name="refresh_buttonssmall_changed">La dimensione della barra dei comandi è cambiata. Riavvio in corso.</string>
+    
+    
+    <string name="pref_help">Leggi il manuale</string>
+    <string name="pref_help_title">Aiuto</string>
+    <string name="pref_market_pro_title">Ottieni la versione PRO</string>
+    
+    <string-array name="pref_trigger_offset_entries">
+        <item>0%</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+        <item>45%</item>
+    </string-array>
+    
+        <string-array name="pref_trigger_offset_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_entries">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    
+    <string-array name="pref_background_transparency_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    
+    <string-array name="pref_number_of_pages_entries">
+        <item>1 pagina</item>
+        <item>2 pagine</item>
+        <item>3 pagine</item>
+         <item>4 pagine</item>
+          <item>5 pagine</item>
+    </string-array>
+    
+        <string-array name="pref_number_of_pages_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+         <item>4</item>
+         <item>5</item>
+    </string-array>
+    
+        
+         <string-array name="pref_show_trigger_width_entries">
+        <item>Piccolissima</item>
+        <item>Piccola</item>
+        <item>Media</item>
+        <item>Grande</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_width_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+                   <string-array name="pref_show_trigger_height_entries">
+        <item>Piccolissima</item>
+        <item>Piccola</item>
+        <item>Media</item>
+        <item>Grande</item>
+    </string-array>
+    
+          <string-array name="pref_show_trigger_height_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="by_dapaua">By dapaua &#169;2013</string>
+    <string-array name="pref_show_trigger_position_entries">
+        <item>In basso a destra</item>
+        <item>Al centro a destra</item>
+        <item>In alto a destra</item>
+        <item>In baso a sinistra</item>
+        <item>Al centro a sinistra</item>
+        <item>In alto a sinistra</item>
+    </string-array>
+    
+        <string-array name="pref_show_trigger_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+  
+    <string name="pref_use_root_title">Usa i permessi di Root</string>
+    <string name="pref_use_root_summary">Usa i permessi di Root per una migliore risposta nell\'utilizzo dell\'area di attivazione </string>
+    
+        
+        <string name="choose_screen">Scegli a quale schermata condurrà questo collegamento:</string>
+            <string name="screen1">Schermata 1</string>
+        	<string name="screen2">Schermata 2</string>
+        	<string name="screen3">Schermata 3</string>
+        	<string name="screen4">Schermata</string>
+        	<string name="screen5">Schermata</string>
+        <string name="titlesc">Nome del collegamento:</string>
+        <string name="titlesc2">Puoi impostare il nome del collegamento. Lascialo vuoto per il nome predefinito.</string>
+        <string name="buttonpickimage">Seleziona l\'icona</string>
+        	  <!-- Application name -->
+    <string name="application_name">WidgetShade PRO</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">WidgetShade PRO</string>
+    
+     <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_title">WidgetShade PRO, by dapaua</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_move_item">Puoi aggiungere i tuoi widgets qui.</string>
+    <!-- The description of how to open all apps from the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_open_all_apps">Per aggiungere un widget, premi il tasto.\n Grazie per aver acquistato la versione PRO. Ora puoi disinstallare la versione FREE.</string>
+    
+    <string name="pref_hide_buttons_title">Nascondi completamente la barra dei comandi</string>
+     <string name="pref_hide_buttons_summary">Per accedere alle impostazioni in questa modalità, usa l\'applicazione WidgetShade Settings che compare nella lista delle applicazioni installate, o premi a lungo sull\'area di attivazione</string>
+     
+    <string name="pref_vibrate_on_sidebar_title">Vibra all\'attivazione</string>
+    <string name="pref_vibrate_on_sidebar_summary">Esegui una piccola vibrazione quando attivato correttamente</string>
+    
+    <string name="pref_respond_to_taps_title">L\'area di attivazione risponde ai tocchi</string>
+    <string name="pref_respond_to_taps_summary">Per impostazione predefinita, l\'area di attivazione risponde solo agli swipe. Se vuoi che risponda anche ai tocchi (tap), attiva questa opzione.</string>
+    
+    
+    <string name="pref_enable_vert_swipes_trigger_title">L\'area di attivazione risponde agli swipe verticali</string>
+    <string name="pref_enable_vert_swipes_trigger_summary">Gli swipe verticali muovono l\'area di attivazione</string>
+    
+    <string name="pref_enable_longpress_trigger_title">L\'area di attivazione risponde al tocco prolungato</string>
+    <string name="pref_enable_longpress_trigger_summary">Il tocco prolungato mostra le impostazioni</string>
+    
+    <string name="pref_trigger_numerical_transparency_title">Trasparenza dell\'area di attivazione</string>
+    <string name="pref_trigger_numerical_transparency_summary">Trasparenza:</string>
+    
+        <string name="pref_trigger_numerical_offset_title">Offset dell\'area di attivazione</string>
+    <string name="pref_trigger_numerical_offset_summary">Regola di fino la posizione verticale dell\'area di attivazione. Offset:</string>
+    
+    <string name="pref_bg_numerical_transparency_title">Trasparenza dello sfondo</string>
+    <string name="pref_bg_numerical_transparency_summary">Trasparenza:</string>
+
+    <string name="widget_shade_settings">Impostazioni di WidgetShade</string>
+    
+    
+    <string name="pref_action_tap_title">Azione al tocco dell\'area di attivazione</string>
+    <string name="pref_action_longpress_title">Azione alla pressione lunga sull\'area di attivazione</string>
+    <string name="pref_action_vertical_title">Azione allo swipe verticale dell\'area di attivazione</string>
+    <string name="pref_action_horizontal_title">Azione allo swipe orizzontale dell\'area di attivazione</string>
+    
+            <string-array name="pref_actions_entries">
+        <item>Non fare nulla</item>
+        <item>Mostra WidgetShade</item>
+        <item>Mostra le impostazioni di WidgetShade</item>
+        <item>Sposta area di attivazione</item>
+      
+    </string-array>
+    
+                    <string-array name="pref_actions_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        
+    </string-array>
+    <string name="action">Azione : </string>
+        <string name="pref_contact">Contatta lo Sviluppatore</string>
+        
+                   <string name="pref_behaviour">Comportamento di WidgetShade</string>
+        <string name="pref_exit_on_tap_title">Tocca per uscire</string>
+        <string name="pref_exit_on_tap_summary">Tocca uno spazio vuoto per uscire da WidgetShade</string>
+        
+        <string name="pref_transition_title">Scegli l\'animazione di avvio</string>
+        <string name="pref_transition_summary">Scegli l\'animazione da eseguire all\'avvio di WidgetShade. Animazione : </string>
+        
+        
+        
+        <string name="pref_swap_back_settings_title">Inverti i tasti funzione \'indietro\' e \'impostazioni\'</string>
+        <string name="pref_swap_back_settings_summary">Per impostazione predefinita, il tasto \'indietro\' è collocato sulla sinistra dello schermo. Abilita questa opzione per collocarlo sulla destra.</string>
+        
+              <string-array name="pref_transition_entries">
+        <item>Fade</item>
+        <item>Flip</item>
+        <item>Slide</item>
+        
+      
+    </string-array>
+        
+        
+</resources>
